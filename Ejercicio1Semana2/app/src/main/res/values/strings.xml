@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ejercicio1Semana2</string>
+    <string name="txtSelect">Select item</string>
+    <string name="txtSelectHoras">Seleccione las horas trabajadas</string>
+</resources>
