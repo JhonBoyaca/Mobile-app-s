@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application prueba</string>
+    <string name="correo_electronico">correo_electronico</string>
+    <string name="nombre_completo">nombre_completo</string>
+    <string name="nombrecompleto">nombre completo</string>
+    <string name="correo_electronicoView">correo electronico</string>
+    <string name="btnEnviar">enviar</string>
+    <string name="fecha">Fecha</string>
+    <string name="nombre">Nombre</string>
+    <string name="regresar">Regresar</string>
+    <string name="salir">Salir</string>
+</resources>
