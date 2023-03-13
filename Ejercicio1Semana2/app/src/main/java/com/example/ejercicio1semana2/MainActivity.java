@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] horas = new String[200];
+    String[] horas = new String[100];
 AutoCompleteTextView txtSelectAutoComplete;
 ArrayAdapter<String> adapterItems;
 
@@ -32,7 +32,7 @@ ArrayAdapter<String> adapterItems;
         setContentView(R.layout.activity_main);
 
 
-        for(int i=0;i<110;i++) {
+        for(int i=0;i<=24;i++) {
 
             horas[i] = "" + (i+1);
         }

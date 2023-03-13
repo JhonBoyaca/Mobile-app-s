@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio2Semana2</string>
+    <string name="txtnombre">Nombre Completo</string>
+    <string name="txtNombre">Nombre Completo</string>
+    <string name="txtNota">Nota</string>
+    <string name="btnAgregarNota">Agregar Nota</string>
+    <string name="btnAgregarNota2">Agregar Nota</string>
+    <string name="btnProcesar">"Procesar "</string>
+    <string name="btnAgregar">Agregar Nota</string>
+    <string name="btnProcesarInfo">Procesa</string>
+</resources>
