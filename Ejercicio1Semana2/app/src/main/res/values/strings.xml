@@ -2,4 +2,17 @@
     <string name="app_name">Ejercicio1Semana2</string>
     <string name="txtSelect">Select item</string>
     <string name="txtSelectHoras">Seleccione las horas trabajadas</string>
+    <string name="procesar_informacion">Procesar Informacion</string>
+    <string name="horas_laboradas">txtHoraslaboradas</string>
+    <string name="txthoras_laboradas">Horas laboradas</string>
+    <string name="txtdui">DUI</string>
+    <string name="txtnombre">Nombre</string>
+    <string name="txtValorHora">Valor por Hora</string>
+    <string name="txtsalario">Salario</string>
+    <string name="btnSalir">salir</string>
+    <string name="btnRegresar">regresar</string>
+    <string name="btnRegresar2">Regresar</string>
+    <string name="txtDUI">Ingresa su numero de DUI</string>
+    <string name="txtNombre">Ingresa tu nombre</string>
+    <string name="txtValorHora2">Ingresa el valor de las horas</string>
 </resources>

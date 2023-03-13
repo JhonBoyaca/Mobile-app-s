@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="393dp"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
@@ -24,8 +24,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:hint="Ingresa su numero de DUI"
-            android:inputType="textPersonName"
+            android:hint="@string/txtDUI"
+            android:inputType="number"
             android:minHeight="48dp"
             android:textSize="20sp"
             tools:ems="10" />
@@ -36,20 +36,20 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:hint="Ingresa tu nombre"
+            android:hint="@string/txtNombre"
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:textSize="20sp"
             tools:ems="10" />
 
         <EditText
-            android:id="@+id/ValorHora"
+            android:id="@+id/txtValorHora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:hint="Ingresa el valor de las horas"
+            android:hint="@string/txtValorHora2"
             android:inputType="number"
             android:minHeight="48dp"
             android:textSize="20sp"
@@ -69,6 +69,25 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/procesar_informacion"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="603dp" />
 
     </LinearLayout>
 
