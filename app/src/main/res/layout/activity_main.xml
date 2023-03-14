@@ -47,6 +47,7 @@
                 android:gravity="center"
                 android:layout_marginLeft="10dp"
                 android:hint="@string/txtNota"
+                 android:inputType="numberDecimal"
                 android:textSize="25dp"></EditText>
 
             <Button
